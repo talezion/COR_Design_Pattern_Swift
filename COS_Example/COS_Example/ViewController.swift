@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let five = HandlerObject(type: .HandlerFive)
+        
+        let cor = ChainHandler()
+        cor.handel(five)
     }
 
     override func didReceiveMemoryWarning() {

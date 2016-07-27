@@ -14,6 +14,7 @@
 		6C04A35A1D4935FD00BA0AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C04A3581D4935FD00BA0AD1 /* LaunchScreen.storyboard */; };
 		6C04A3651D4935FD00BA0AD1 /* COS_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C04A3641D4935FD00BA0AD1 /* COS_ExampleTests.swift */; };
 		6C04A3701D4935FD00BA0AD1 /* COS_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C04A36F1D4935FD00BA0AD1 /* COS_ExampleUITests.swift */; };
+		6C04A37E1D49365800BA0AD1 /* ChainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C04A37D1D49365800BA0AD1 /* ChainHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6C04A36B1D4935FD00BA0AD1 /* COS_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COS_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C04A36F1D4935FD00BA0AD1 /* COS_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COS_ExampleUITests.swift; sourceTree = "<group>"; };
 		6C04A3711D4935FD00BA0AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C04A37D1D49365800BA0AD1 /* ChainHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				6C04A34F1D4935FD00BA0AD1 /* AppDelegate.swift */,
+				6C04A37D1D49365800BA0AD1 /* ChainHandler.swift */,
 				6C04A3511D4935FD00BA0AD1 /* ViewController.swift */,
 				6C04A3531D4935FD00BA0AD1 /* Main.storyboard */,
 				6C04A3561D4935FD00BA0AD1 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				6C04A3521D4935FD00BA0AD1 /* ViewController.swift in Sources */,
 				6C04A3501D4935FD00BA0AD1 /* AppDelegate.swift in Sources */,
+				6C04A37E1D49365800BA0AD1 /* ChainHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
