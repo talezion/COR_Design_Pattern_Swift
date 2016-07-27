@@ -4,6 +4,7 @@ enum HandlerType {
     case HandlerThree
     case HandlerFour
     case HandlerFive
+    case HandlerSix
 }
 
 protocol HandlerObjectProtocol {
@@ -70,13 +71,10 @@ class HandlerFour: HandlerProtocol {
     
     func handel(type: HandlerObjectProtocol) {
         if HandlerType.HandlerFour == type.type {
-            //TODO
+            print("I am \(type.type)")
         } else {
-            if self.nextHandler != nil {
-                self.nextHandler?.handel(type)
-            } else {
-                fatalError("No one to take care of me")
-            }
+            self.nextHandler?.handel(type)
+            print("I am not \(HandlerType.HandlerFour)")
         }
     }
 }
@@ -89,8 +87,12 @@ class HandlerFive: HandlerProtocol {
         if HandlerType.HandlerFive == type.type {
             print("I am \(type.type)")
         } else {
-            self.nextHandler?.handel(type)
-            print("I am not \(HandlerType.HandlerFive)")
+            if self.nextHandler != nil {
+                print("I am not \(HandlerType.HandlerFive)")
+                self.nextHandler?.handel(type)
+            } else {
+                fatalError("No one to take care of me")
+            }
         }
     }
 }
@@ -101,7 +103,7 @@ struct HandlerObject: HandlerObjectProtocol {
 }
 
 protocol ChainHandlerProtocol {
-    weak var currentHandler:HandlerProtocol? { get set }
+    var currentHandler:HandlerProtocol? { get set }
 }
 
 extension ChainHandlerProtocol {
@@ -112,7 +114,7 @@ extension ChainHandlerProtocol {
 
 class ChainHandler: ChainHandlerProtocol {
     
-    weak var currentHandler:HandlerProtocol?
+    var currentHandler:HandlerProtocol?
     
     init(){
         
