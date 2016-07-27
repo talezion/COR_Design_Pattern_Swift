@@ -94,7 +94,7 @@ class HandlerOne: HandlerProtocol {
             
         } else {
             
-            ///Execue the next handler in the chain
+            ///Execute the next handler in the chain
             self.nextHandler?.handel(type)
             
         }
@@ -116,13 +116,12 @@ class HandlerTwo: HandlerProtocol {
             
         } else {
             
-            ///Execue the next handler in the chain
+            ///Execute the next handler in the chain
             self.nextHandler?.handel(type)
             
             
             ///IMPORTANT NOTE: In case the current handler is the last in the chain, force a crash to make sure you handle all types:
             
-            //Uncomment if last handler
             if nextHandler != nil {
                 self.nextHandler?.handel(type)
             } else {
