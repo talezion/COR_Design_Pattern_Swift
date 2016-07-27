@@ -8,7 +8,7 @@
 // MARK: - Add handler types to handle request
 enum HandlerType {
     
-    ///Add handler types for each handler
+    ///TODO: Add handler types for each handler
     case HanlerExampleOne
     case HanlerExampleTwo
 }
