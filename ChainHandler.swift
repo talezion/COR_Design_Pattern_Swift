@@ -15,7 +15,8 @@ enum HandlerType {
 
 ///Handler object protocol sets the object type
 protocol HandlerObjectProtocol {
-    var type:HandlerType { get set }
+    var type:HandlerType { get }
+    var target: AnyObject { get }
 }
 
 protocol HandlerProtocol: class {
@@ -32,7 +33,7 @@ extension HandlerProtocol {
 
 struct HandlerObject: HandlerObjectProtocol {
     var type: HandlerType
-    
+    var target: AnyObject
 }
 
 protocol ChainHandlerProtocol {
