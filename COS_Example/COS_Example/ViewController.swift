@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let five = HandlerObject(type: .HandlerFive)
+        let five = HandlerObject(type: .handlerFive)
         
         let cor = ChainHandler()
         cor.handel(five)

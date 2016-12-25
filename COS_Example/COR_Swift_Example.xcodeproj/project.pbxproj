@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C04A34C1D4935FD00BA0AD1 /* COS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C04A34C1D4935FD00BA0AD1 /* COR_Swift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COR_Swift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C04A34F1D4935FD00BA0AD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C04A3511D4935FD00BA0AD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C04A3541D4935FD00BA0AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C04A3561D4935FD00BA0AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C04A3591D4935FD00BA0AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C04A35B1D4935FD00BA0AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C04A3601D4935FD00BA0AD1 /* COS_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COS_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C04A3601D4935FD00BA0AD1 /* COR_Swift_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COR_Swift_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C04A3641D4935FD00BA0AD1 /* COS_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COS_ExampleTests.swift; sourceTree = "<group>"; };
 		6C04A3661D4935FD00BA0AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C04A36B1D4935FD00BA0AD1 /* COS_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COS_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C04A36B1D4935FD00BA0AD1 /* COR_Swift_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COR_Swift_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C04A36F1D4935FD00BA0AD1 /* COS_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COS_ExampleUITests.swift; sourceTree = "<group>"; };
 		6C04A3711D4935FD00BA0AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C04A37D1D49365800BA0AD1 /* ChainHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainHandler.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		6C04A34D1D4935FD00BA0AD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C04A34C1D4935FD00BA0AD1 /* COS_Example.app */,
-				6C04A3601D4935FD00BA0AD1 /* COS_ExampleTests.xctest */,
-				6C04A36B1D4935FD00BA0AD1 /* COS_ExampleUITests.xctest */,
+				6C04A34C1D4935FD00BA0AD1 /* COR_Swift_Example.app */,
+				6C04A3601D4935FD00BA0AD1 /* COR_Swift_ExampleTests.xctest */,
+				6C04A36B1D4935FD00BA0AD1 /* COR_Swift_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C04A34B1D4935FD00BA0AD1 /* COS_Example */ = {
+		6C04A34B1D4935FD00BA0AD1 /* COR_Swift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C04A3741D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COS_Example" */;
+			buildConfigurationList = 6C04A3741D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COR_Swift_Example" */;
 			buildPhases = (
 				6C04A3481D4935FD00BA0AD1 /* Sources */,
 				6C04A3491D4935FD00BA0AD1 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = COS_Example;
+			name = COR_Swift_Example;
 			productName = COS_Example;
-			productReference = 6C04A34C1D4935FD00BA0AD1 /* COS_Example.app */;
+			productReference = 6C04A34C1D4935FD00BA0AD1 /* COR_Swift_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6C04A35F1D4935FD00BA0AD1 /* COS_ExampleTests */ = {
+		6C04A35F1D4935FD00BA0AD1 /* COR_Swift_ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C04A3771D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COS_ExampleTests" */;
+			buildConfigurationList = 6C04A3771D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COR_Swift_ExampleTests" */;
 			buildPhases = (
 				6C04A35C1D4935FD00BA0AD1 /* Sources */,
 				6C04A35D1D4935FD00BA0AD1 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				6C04A3621D4935FD00BA0AD1 /* PBXTargetDependency */,
 			);
-			name = COS_ExampleTests;
+			name = COR_Swift_ExampleTests;
 			productName = COS_ExampleTests;
-			productReference = 6C04A3601D4935FD00BA0AD1 /* COS_ExampleTests.xctest */;
+			productReference = 6C04A3601D4935FD00BA0AD1 /* COR_Swift_ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6C04A36A1D4935FD00BA0AD1 /* COS_ExampleUITests */ = {
+		6C04A36A1D4935FD00BA0AD1 /* COR_Swift_ExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C04A37A1D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COS_ExampleUITests" */;
+			buildConfigurationList = 6C04A37A1D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COR_Swift_ExampleUITests" */;
 			buildPhases = (
 				6C04A3671D4935FD00BA0AD1 /* Sources */,
 				6C04A3681D4935FD00BA0AD1 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				6C04A36D1D4935FD00BA0AD1 /* PBXTargetDependency */,
 			);
-			name = COS_ExampleUITests;
+			name = COR_Swift_ExampleUITests;
 			productName = COS_ExampleUITests;
-			productReference = 6C04A36B1D4935FD00BA0AD1 /* COS_ExampleUITests.xctest */;
+			productReference = 6C04A36B1D4935FD00BA0AD1 /* COR_Swift_ExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -196,18 +196,21 @@
 				TargetAttributes = {
 					6C04A34B1D4935FD00BA0AD1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 					6C04A35F1D4935FD00BA0AD1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 6C04A34B1D4935FD00BA0AD1;
 					};
 					6C04A36A1D4935FD00BA0AD1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 6C04A34B1D4935FD00BA0AD1;
 					};
 				};
 			};
-			buildConfigurationList = 6C04A3471D4935FD00BA0AD1 /* Build configuration list for PBXProject "COS_Example" */;
+			buildConfigurationList = 6C04A3471D4935FD00BA0AD1 /* Build configuration list for PBXProject "COR_Swift_Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C04A34B1D4935FD00BA0AD1 /* COS_Example */,
-				6C04A35F1D4935FD00BA0AD1 /* COS_ExampleTests */,
-				6C04A36A1D4935FD00BA0AD1 /* COS_ExampleUITests */,
+				6C04A34B1D4935FD00BA0AD1 /* COR_Swift_Example */,
+				6C04A35F1D4935FD00BA0AD1 /* COR_Swift_ExampleTests */,
+				6C04A36A1D4935FD00BA0AD1 /* COR_Swift_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		6C04A3621D4935FD00BA0AD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6C04A34B1D4935FD00BA0AD1 /* COS_Example */;
+			target = 6C04A34B1D4935FD00BA0AD1 /* COR_Swift_Example */;
 			targetProxy = 6C04A3611D4935FD00BA0AD1 /* PBXContainerItemProxy */;
 		};
 		6C04A36D1D4935FD00BA0AD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6C04A34B1D4935FD00BA0AD1 /* COS_Example */;
+			target = 6C04A34B1D4935FD00BA0AD1 /* COR_Swift_Example */;
 			targetProxy = 6C04A36C1D4935FD00BA0AD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -420,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,7 +436,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COS_Example.app/COS_Example";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COR_Swift_Example.app/COR_Swift_Example";
 			};
 			name = Debug;
 		};
@@ -443,7 +449,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COS_Example.app/COS_Example";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COR_Swift_Example.app/COR_Swift_Example";
 			};
 			name = Release;
 		};
@@ -454,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = COS_Example;
 			};
 			name = Debug;
@@ -465,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = COS_Example;
 			};
 			name = Release;
@@ -472,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C04A3471D4935FD00BA0AD1 /* Build configuration list for PBXProject "COS_Example" */ = {
+		6C04A3471D4935FD00BA0AD1 /* Build configuration list for PBXProject "COR_Swift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C04A3721D4935FD00BA0AD1 /* Debug */,
@@ -481,29 +490,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C04A3741D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COS_Example" */ = {
+		6C04A3741D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COR_Swift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C04A3751D4935FD00BA0AD1 /* Debug */,
 				6C04A3761D4935FD00BA0AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6C04A3771D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COS_ExampleTests" */ = {
+		6C04A3771D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COR_Swift_ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C04A3781D4935FD00BA0AD1 /* Debug */,
 				6C04A3791D4935FD00BA0AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6C04A37A1D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COS_ExampleUITests" */ = {
+		6C04A37A1D4935FD00BA0AD1 /* Build configuration list for PBXNativeTarget "COR_Swift_ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C04A37B1D4935FD00BA0AD1 /* Debug */,
 				6C04A37C1D4935FD00BA0AD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

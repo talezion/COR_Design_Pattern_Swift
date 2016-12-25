@@ -1,10 +1,10 @@
 enum HandlerType {
-    case HanlerOne
-    case HandlerTwo
-    case HandlerThree
-    case HandlerFour
-    case HandlerFive
-    case HandlerSix
+    case hanlerOne
+    case handlerTwo
+    case handlerThree
+    case handlerFour
+    case handlerFive
+    case handlerSix
 }
 
 protocol HandlerObjectProtocol {
@@ -13,12 +13,12 @@ protocol HandlerObjectProtocol {
 
 protocol HandlerProtocol: class {
     weak var nextHandler:HandlerProtocol? { get set }
-    func handel(type: HandlerObjectProtocol)
+    func handel(_ type: HandlerObjectProtocol)
 }
 
 extension HandlerProtocol {
     
-    func set(handler:HandlerProtocol){
+    func set(_ handler:HandlerProtocol){
         self.nextHandler = handler
     }
 }
@@ -27,12 +27,12 @@ class HandlerOne: HandlerProtocol {
     
     var nextHandler: HandlerProtocol?
     
-    func handel(type: HandlerObjectProtocol) {
-        if HandlerType.HanlerOne == type.type {
-            print("I am \(HandlerType.HanlerOne)")
+    func handel(_ type: HandlerObjectProtocol) {
+        if HandlerType.hanlerOne == type.type {
+            print("I am \(HandlerType.hanlerOne)")
         } else {
             self.nextHandler?.handel(type)
-            print("I am not \(HandlerType.HanlerOne)")
+            print("I am not \(HandlerType.hanlerOne)")
         }
     }
 }
@@ -41,12 +41,12 @@ class HandlerTwo: HandlerProtocol {
     
     var nextHandler: HandlerProtocol?
     
-    func handel(type: HandlerObjectProtocol) {
-        if HandlerType.HandlerTwo == type.type {
-            print("I am \(HandlerType.HandlerTwo)")
+    func handel(_ type: HandlerObjectProtocol) {
+        if HandlerType.handlerTwo == type.type {
+            print("I am \(HandlerType.handlerTwo)")
         } else {
             self.nextHandler?.handel(type)
-            print("I am not \(HandlerType.HandlerTwo)")
+            print("I am not \(HandlerType.handlerTwo)")
         }
     }
 }
@@ -55,12 +55,12 @@ class HandlerThree: HandlerProtocol {
     
     var nextHandler: HandlerProtocol?
     
-    func handel(type: HandlerObjectProtocol) {
-        if HandlerType.HandlerThree == type.type {
+    func handel(_ type: HandlerObjectProtocol) {
+        if HandlerType.handlerThree == type.type {
             print("I am \(type.type)")
         } else {
             self.nextHandler?.handel(type)
-            print("I am not \(HandlerType.HandlerThree)")
+            print("I am not \(HandlerType.handlerThree)")
         }
     }
 }
@@ -69,12 +69,12 @@ class HandlerFour: HandlerProtocol {
     
     var nextHandler: HandlerProtocol?
     
-    func handel(type: HandlerObjectProtocol) {
-        if HandlerType.HandlerFour == type.type {
+    func handel(_ type: HandlerObjectProtocol) {
+        if HandlerType.handlerFour == type.type {
             print("I am \(type.type)")
         } else {
             self.nextHandler?.handel(type)
-            print("I am not \(HandlerType.HandlerFour)")
+            print("I am not \(HandlerType.handlerFour)")
         }
     }
 }
@@ -83,12 +83,12 @@ class HandlerFive: HandlerProtocol {
     
     var nextHandler: HandlerProtocol?
     
-    func handel(type: HandlerObjectProtocol) {
-        if HandlerType.HandlerFive == type.type {
+    func handel(_ type: HandlerObjectProtocol) {
+        if HandlerType.handlerFive == type.type {
             print("I am \(type.type)")
         } else {
             if self.nextHandler != nil {
-                print("I am not \(HandlerType.HandlerFive)")
+                print("I am not \(HandlerType.handlerFive)")
                 self.nextHandler?.handel(type)
             } else {
                 fatalError("No one to take care of me")
@@ -107,7 +107,7 @@ protocol ChainHandlerProtocol {
 }
 
 extension ChainHandlerProtocol {
-    func handel(type:HandlerObjectProtocol) {
+    func handel(_ type:HandlerObjectProtocol) {
         self.currentHandler?.handel(type)
     }
 }
