@@ -8,7 +8,7 @@ To run the project, simply clone the repo.
 
 ###Installation
 
-1. Add start using COR in your prject, copy the following files:
+Add start using COR in your prject, copy the following files:
 
 ```
 ChainProtocols.swift
