@@ -17,7 +17,7 @@ HandlerType.swift
 
 ###Usage
 
-    1. Create a new `ChainHandler` class and conform to `ChainHandlerProtocol`
+    1. Create a new ChainHandler class and conform to ChainHandlerProtocol
 
 ```swift
 class ExampleChainHandler: ChainHandlerProtocol {
@@ -31,7 +31,7 @@ class ExampleChainHandler: ChainHandlerProtocol {
 
 ```
 
-Now that we have a chain, responsible for executing handler objects, we can go ahead `handler`, but first, we want to start adding handler types
+Now that we have a chain responsible for executing handler objects, we can go ahead and create a new `handler`. But first, we want to add a handler type to support the handler
 
     2. Add a handler type in HandlerType.
 
@@ -45,7 +45,7 @@ enum HandlerType {
 
 ```
 
-Once we set a hadnler type, we can go ahead and create a `Handler`.
+Once we set a hadnler type, we can go ahead and create the `Handler`.
 
     3. Creat a of Handler
 
