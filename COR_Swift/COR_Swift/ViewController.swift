@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  COS_Example
+//  COR_Swift
 //
-//  Created by Tal Zion on 27/07/2016.
+//  Created by Tal Zion on 26/12/2016.
 //  Copyright © 2016 Tal Zion. All rights reserved.
 //
 
@@ -17,12 +17,5 @@ class ViewController: UIViewController {
         let cor = ExampleChainHandler()
         cor.handel(handler)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

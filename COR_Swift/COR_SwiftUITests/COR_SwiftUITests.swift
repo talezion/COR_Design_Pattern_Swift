@@ -1,14 +1,14 @@
 //
-//  COS_ExampleUITests.swift
-//  COS_ExampleUITests
+//  COR_SwiftUITests.swift
+//  COR_SwiftUITests
 //
-//  Created by Tal Zion on 27/07/2016.
+//  Created by Tal Zion on 26/12/2016.
 //  Copyright © 2016 Tal Zion. All rights reserved.
 //
 
 import XCTest
 
-class COS_ExampleUITests: XCTestCase {
+class COR_SwiftUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
