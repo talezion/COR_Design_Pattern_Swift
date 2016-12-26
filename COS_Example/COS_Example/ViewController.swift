@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let handler = HandlerObject(type: .one, target: self)
-        
         let cor = ExampleChainHandler()
         cor.handel(handler)
     }

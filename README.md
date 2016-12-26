@@ -17,7 +17,7 @@ HandlerType.swift
 
 ###Usage
 
-1. Create a new `ChainHandler` class and conform to `ChainHandlerProtocol`
+    1. Create a new `ChainHandler` class and conform to `ChainHandlerProtocol`
 
 ```swift
 class ExampleChainHandler: ChainHandlerProtocol {
@@ -33,7 +33,7 @@ class ExampleChainHandler: ChainHandlerProtocol {
 
 Now that we have a chain, responsible for executing how handler objects, we can go ahead and create an istance of `HandlerObject`, but first, we want to start adding handler types
 
-2. Add a handler type in `HandlerType`.
+    2. Add a handler type in `HandlerType`.
 
 In your `HandlerType.swift` file, add a new type
 
@@ -47,7 +47,7 @@ enum HandlerType {
 
 Once we set a hadnler type, we can go ahead and create a `HandlerObject`.
 
-2. Creat an instance of `HandlerObject`
+    3. Creat an instance of `HandlerObject`
 
 ```swift
 //MARK: - Handler:
@@ -82,7 +82,7 @@ class HandlerObjectOne: HandlerProtocol {
 
 As you can see, we force a crash in case the handler was not added to the chain. Let's add it to the chain.
 
-3. Add a handler to the chain.
+    4. Add a handler to the chain.
 
 In the `ChainHandler` `init`, set the handlers.
 
@@ -110,7 +110,7 @@ class ExampleChainHandler: ChainHandlerProtocol {
 ```
 Now that everything is set, we can handle an object.
 
-4. Handel
+   5. Handel
 
 ```Swift
 let handler = HandlerObject(type: .one, target: self)
