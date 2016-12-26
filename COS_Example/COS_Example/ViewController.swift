@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let five = HandlerObject(type: .handlerFive)
+        let handler = HandlerObject(type: .one, target: self)
         
-        let cor = ChainHandler()
-        cor.handel(five)
+        let cor = ExampleChainHandler()
+        cor.handel(handler)
     }
 
     override func didReceiveMemoryWarning() {

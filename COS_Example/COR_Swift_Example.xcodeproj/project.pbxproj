@@ -14,7 +14,11 @@
 		6C04A35A1D4935FD00BA0AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C04A3581D4935FD00BA0AD1 /* LaunchScreen.storyboard */; };
 		6C04A3651D4935FD00BA0AD1 /* COS_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C04A3641D4935FD00BA0AD1 /* COS_ExampleTests.swift */; };
 		6C04A3701D4935FD00BA0AD1 /* COS_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C04A36F1D4935FD00BA0AD1 /* COS_ExampleUITests.swift */; };
-		6C04A37E1D49365800BA0AD1 /* ChainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C04A37D1D49365800BA0AD1 /* ChainHandler.swift */; };
+		6CC4478C1E0FFCB80035F03F /* ChainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC4478B1E0FFCB80035F03F /* ChainHandler.swift */; };
+		6CC4478E1E0FFCF30035F03F /* ChainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC4478D1E0FFCF30035F03F /* ChainProtocols.swift */; };
+		6CC447901E0FFD050035F03F /* HandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC4478F1E0FFD050035F03F /* HandlerType.swift */; };
+		6CC447931E0FFD710035F03F /* ObjectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC447921E0FFD710035F03F /* ObjectHandler.swift */; };
+		6CC447951E0FFDAC0035F03F /* HandlerObjectTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC447941E0FFDAC0035F03F /* HandlerObjectTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,11 @@
 		6C04A36B1D4935FD00BA0AD1 /* COR_Swift_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COR_Swift_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C04A36F1D4935FD00BA0AD1 /* COS_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COS_ExampleUITests.swift; sourceTree = "<group>"; };
 		6C04A3711D4935FD00BA0AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C04A37D1D49365800BA0AD1 /* ChainHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainHandler.swift; sourceTree = "<group>"; };
+		6CC4478B1E0FFCB80035F03F /* ChainHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainHandler.swift; sourceTree = "<group>"; };
+		6CC4478D1E0FFCF30035F03F /* ChainProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainProtocols.swift; sourceTree = "<group>"; };
+		6CC4478F1E0FFD050035F03F /* HandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlerType.swift; sourceTree = "<group>"; };
+		6CC447921E0FFD710035F03F /* ObjectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectHandler.swift; sourceTree = "<group>"; };
+		6CC447941E0FFDAC0035F03F /* HandlerObjectTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlerObjectTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +87,9 @@
 		6C04A3431D4935FD00BA0AD1 = {
 			isa = PBXGroup;
 			children = (
-				6C04A34E1D4935FD00BA0AD1 /* COS_Example */,
-				6C04A3631D4935FD00BA0AD1 /* COS_ExampleTests */,
-				6C04A36E1D4935FD00BA0AD1 /* COS_ExampleUITests */,
+				6C04A34E1D4935FD00BA0AD1 /* COR_Example */,
+				6C04A3631D4935FD00BA0AD1 /* COR_ExampleTests */,
+				6C04A36E1D4935FD00BA0AD1 /* COR_ExampleUITests */,
 				6C04A34D1D4935FD00BA0AD1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,36 +104,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C04A34E1D4935FD00BA0AD1 /* COS_Example */ = {
+		6C04A34E1D4935FD00BA0AD1 /* COR_Example */ = {
 			isa = PBXGroup;
 			children = (
 				6C04A34F1D4935FD00BA0AD1 /* AppDelegate.swift */,
-				6C04A37D1D49365800BA0AD1 /* ChainHandler.swift */,
+				6CC4478A1E0FFC850035F03F /* Chain */,
+				6CC447911E0FFD5C0035F03F /* Example */,
 				6C04A3511D4935FD00BA0AD1 /* ViewController.swift */,
 				6C04A3531D4935FD00BA0AD1 /* Main.storyboard */,
 				6C04A3561D4935FD00BA0AD1 /* Assets.xcassets */,
 				6C04A3581D4935FD00BA0AD1 /* LaunchScreen.storyboard */,
 				6C04A35B1D4935FD00BA0AD1 /* Info.plist */,
 			);
+			name = COR_Example;
 			path = COS_Example;
 			sourceTree = "<group>";
 		};
-		6C04A3631D4935FD00BA0AD1 /* COS_ExampleTests */ = {
+		6C04A3631D4935FD00BA0AD1 /* COR_ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				6C04A3641D4935FD00BA0AD1 /* COS_ExampleTests.swift */,
 				6C04A3661D4935FD00BA0AD1 /* Info.plist */,
 			);
+			name = COR_ExampleTests;
 			path = COS_ExampleTests;
 			sourceTree = "<group>";
 		};
-		6C04A36E1D4935FD00BA0AD1 /* COS_ExampleUITests */ = {
+		6C04A36E1D4935FD00BA0AD1 /* COR_ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				6C04A36F1D4935FD00BA0AD1 /* COS_ExampleUITests.swift */,
 				6C04A3711D4935FD00BA0AD1 /* Info.plist */,
 			);
+			name = COR_ExampleUITests;
 			path = COS_ExampleUITests;
+			sourceTree = "<group>";
+		};
+		6CC4478A1E0FFC850035F03F /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				6CC4478D1E0FFCF30035F03F /* ChainProtocols.swift */,
+				6CC4478F1E0FFD050035F03F /* HandlerType.swift */,
+			);
+			name = Chain;
+			sourceTree = "<group>";
+		};
+		6CC447911E0FFD5C0035F03F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				6CC4478B1E0FFCB80035F03F /* ChainHandler.swift */,
+				6CC447921E0FFD710035F03F /* ObjectHandler.swift */,
+				6CC447941E0FFDAC0035F03F /* HandlerObjectTwo.swift */,
+			);
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC447901E0FFD050035F03F /* HandlerType.swift in Sources */,
 				6C04A3521D4935FD00BA0AD1 /* ViewController.swift in Sources */,
 				6C04A3501D4935FD00BA0AD1 /* AppDelegate.swift in Sources */,
-				6C04A37E1D49365800BA0AD1 /* ChainHandler.swift in Sources */,
+				6CC4478C1E0FFCB80035F03F /* ChainHandler.swift in Sources */,
+				6CC447951E0FFDAC0035F03F /* HandlerObjectTwo.swift in Sources */,
+				6CC4478E1E0FFCF30035F03F /* ChainProtocols.swift in Sources */,
+				6CC447931E0FFD710035F03F /* ObjectHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = COS_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COR-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = COS_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idz.COR-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
