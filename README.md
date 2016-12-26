@@ -122,10 +122,10 @@ cor.handel(handler)
 You can set different types of `HandlerObjects`
 
 ```swift
-let handler = HandlerObject(type: <#T##HandlerType#>, target: <#T##Any#>)
-let handler = HandlerObject(type: <#T##HandlerType#>, target: <#T##Any#>, userInfo: <#T##[AnyHashable : Any]?#>)
-let handler = HandlerObject(type: <#T##HandlerType#>, target: <#T##Any#>, block: <#T##CORComplitionBlock##CORComplitionBlock##([AnyHashable : Any]?) -> Void#>, failureBlock: <#T##CORFailureBlock?##CORFailureBlock?##(ChainError?) -> Void#>)
-let handler = HandlerObject(type: <#T##HandlerType#>, target: <#T##Any#>, userInfo: <#T##[AnyHashable : Any]?#>, block: <#T##CORComplitionBlock##CORComplitionBlock##([AnyHashable : Any]?) -> Void#>, failureBlock: <#T##CORFailureBlock?##CORFailureBlock?##(ChainError?) -> Void#>)
+let handler = HandlerObject(type: HandlerType, target: Any)
+let handler = HandlerObject(type: HandlerType, target: Any, userInfo: [AnyHashable : Any]?)
+let handler = HandlerObject(type: HandlerType, target: Any, block: CORComplitionBlock, failureBlock: CORFailureBlock?)
+let handler = HandlerObject(type: HandlerType, target: Any, userInfo: [AnyHashable : Any]?, block: CORComplitionBlock, failureBlock: CORFailureBlock?)
 ```
 
 You can pass `userInfo` or a `complitionBlock` && || `failureBlock`
