@@ -8,7 +8,7 @@ To run the project, simply clone the repo.
 
 ###Installation
 
-Add start using COR in your prject, copy the following files:
+To start using COR in your prject, copy the following files:
 
 ```
 ChainProtocols.swift
@@ -31,9 +31,9 @@ class ExampleChainHandler: ChainHandlerProtocol {
 
 ```
 
-Now that we have a chain, responsible for executing how handler objects, we can go ahead and create an istance of `HandlerObject`, but first, we want to start adding handler types
+Now that we have a chain, responsible for executing handler objects, we can go ahead `handler`, but first, we want to start adding handler types
 
-    2. Add a handler type in `HandlerType`.
+    2. Add a handler type in HandlerType.
 
 In your `HandlerType.swift` file, add a new type
 
@@ -45,9 +45,9 @@ enum HandlerType {
 
 ```
 
-Once we set a hadnler type, we can go ahead and create a `HandlerObject`.
+Once we set a hadnler type, we can go ahead and create a `Handler`.
 
-    3. Creat an instance of `HandlerObject`
+    3. Creat a of Handler
 
 ```swift
 //MARK: - Handler:
@@ -90,7 +90,7 @@ In the `ChainHandler` `init`, set the handlers.
 /// Set Handlers
 currentHandler = HandlerObjectOne() // Your handler object
 ```
-Here is the fun part, you can add as many hadnlers as you want:
+Here is the fun part, you can add as many handlers as you need:
 
 ```swift
 class ExampleChainHandler: ChainHandlerProtocol {
@@ -101,21 +101,23 @@ class ExampleChainHandler: ChainHandlerProtocol {
         /// Set Handlers
         currentHandler = HandlerObjectOne() // Your handler object
         let handler2 = HandlerObjectTwo()
+        let handler3 = HandlerObjectThree()
 
-        //MARK: All you have to do is make sure the predecessor, sets a successor handler for the chain to continue.
+        //MARK: All you have to do is make sure the predecessor sets a successor handler for the chain to continue.
         // Configureing successor
         currentHandler?.set(handler2)
+        handler2.set(handler3)
     }
 }
 ```
 Now that everything is set, we can handle an object.
 
-   5. Handel
+    5. Handel
 
 ```Swift
 let handler = HandlerObject(type: .one, target: self)
 
-let cor = ChainHandler()
+let cor = ExampleChainHandler()
 cor.handel(handler)
 ```
 
