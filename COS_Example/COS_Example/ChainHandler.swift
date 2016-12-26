@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 class ExampleChainHandler: ChainHandlerProtocol {
     
     var currentHandler: HandlerProtocol?

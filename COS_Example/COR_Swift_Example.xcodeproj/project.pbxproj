@@ -110,11 +110,7 @@
 				6C04A34F1D4935FD00BA0AD1 /* AppDelegate.swift */,
 				6CC4478A1E0FFC850035F03F /* Chain */,
 				6CC447911E0FFD5C0035F03F /* Example */,
-				6C04A3511D4935FD00BA0AD1 /* ViewController.swift */,
-				6C04A3531D4935FD00BA0AD1 /* Main.storyboard */,
-				6C04A3561D4935FD00BA0AD1 /* Assets.xcassets */,
-				6C04A3581D4935FD00BA0AD1 /* LaunchScreen.storyboard */,
-				6C04A35B1D4935FD00BA0AD1 /* Info.plist */,
+				6CC447AA1E10F82B0035F03F /* SupportingDocuments */,
 			);
 			name = COR_Example;
 			path = COS_Example;
@@ -157,6 +153,18 @@
 				6CC447941E0FFDAC0035F03F /* HandlerObjectTwo.swift */,
 			);
 			name = Example;
+			sourceTree = "<group>";
+		};
+		6CC447AA1E10F82B0035F03F /* SupportingDocuments */ = {
+			isa = PBXGroup;
+			children = (
+				6C04A3511D4935FD00BA0AD1 /* ViewController.swift */,
+				6C04A3531D4935FD00BA0AD1 /* Main.storyboard */,
+				6C04A3561D4935FD00BA0AD1 /* Assets.xcassets */,
+				6C04A3581D4935FD00BA0AD1 /* LaunchScreen.storyboard */,
+				6C04A35B1D4935FD00BA0AD1 /* Info.plist */,
+			);
+			name = SupportingDocuments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
