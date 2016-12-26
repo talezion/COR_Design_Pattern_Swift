@@ -23,7 +23,7 @@ class HandlerObjectTwo: HandlerProtocol {
             
             /// MARK: Add logic here
             
-            
+            print("Handler one handled")
         } else {
             
             ///Execute the next handler in the chain
