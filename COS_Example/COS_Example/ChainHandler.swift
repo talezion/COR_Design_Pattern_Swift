@@ -17,7 +17,7 @@ class ExampleChainHandler: ChainHandlerProtocol {
     init(){
         
         /// Set Handlers
-        currentHandler = ObjectHandler()
+        currentHandler = HandlerObjectOne()
         let handler2 = HandlerObjectTwo()
         
         // Configureing successor

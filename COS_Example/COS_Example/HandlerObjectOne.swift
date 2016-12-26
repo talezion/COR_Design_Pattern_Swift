@@ -11,7 +11,7 @@ import Foundation
 //MARK: - Handler:
 
 ///Add Handler and conform to HandlerProtocol
-class ObjectHandler: HandlerProtocol {
+class HandlerObjectOne: HandlerProtocol {
     
     var nextHandler: HandlerProtocol?
     
