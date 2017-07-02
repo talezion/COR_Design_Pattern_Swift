@@ -6,7 +6,7 @@
 
 To run the project, simply clone the repo.
 
-###Installation
+### Installation
 
 To start using COR in your prject, copy the following files:
 
