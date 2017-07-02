@@ -2,7 +2,7 @@
 
 [![Swift Version](https://img.shields.io/badge/Swift-3.0.x-orange.svg)]()
 
-##Example
+## Example
 
 To run the project, simply clone the repo.
 
@@ -15,7 +15,7 @@ ChainProtocols.swift
 HandlerType.swift
 ```
 
-###Usage
+### Usage
 
     1. Create a new ChainHandler class and conform to ChainHandlerProtocol
 
