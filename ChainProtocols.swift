@@ -38,7 +38,7 @@ protocol ChainHandlerProtocol {
     var currentHandler:HandlerProtocol? { get set }
 }
 
-///Starts the chain of responsibility
+//Starts the chain of responsibility
 extension ChainHandlerProtocol {
     func handel(_ type:HandlerObjectProtocol) {
         self.currentHandler?.handel(type)
